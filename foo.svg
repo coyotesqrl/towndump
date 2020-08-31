@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <circle style="fill: rgb(0, 255, 0);" cx="90" cy="90" r="40"/>
+        <path
+            d="
+    M 125 80
+    h 20
+    v -15
+    L 180, 90
+    L 145, 115
+    v -15
+    h -30
+    v -20
+    Z"
+            style="fill: rgb(0, 255, 0);"
+        ></path>
+    </g>
+</svg>

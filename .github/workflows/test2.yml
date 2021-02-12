@@ -12,4 +12,4 @@ jobs:
           babashka-version: 0.2.10
 
       - name: Do something silly
-        run: bb "(mapv str (filter #(.isFile %) (take 5 (file-seq (clojure.java.io/file \".\")))))"
+        run: bb "(mapv str (filter \#(.isFile %) (take 5 (file-seq (clojure.java.io/file \".\")))))"
